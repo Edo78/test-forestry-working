@@ -25,7 +25,9 @@ fields:
   default: []
   config:
     required: false
-    options: []
+    options:
+    - post
+    - tutorial
     source:
       type: simple
       section: 
