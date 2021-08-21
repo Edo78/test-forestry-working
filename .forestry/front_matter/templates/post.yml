@@ -20,3 +20,16 @@ fields:
   config:
     maxSize: 64
   label: image
+- name: field-name
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: field-label
+  description: This is the description of the field
